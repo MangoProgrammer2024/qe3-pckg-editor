@@ -19,7 +19,7 @@ typedef std::size_t qesize_t;
 typedef class QE_Global_GUI_Table{
   public:
  QE_Global_GUI_Table();
-  ~ QE_Global_GUI_Table();
+  ~QE_Global_GUI_Table();
 
       HWND * QE_Camera_Widget;
       HWND * QE_XY_Widget;
