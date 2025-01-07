@@ -21,7 +21,7 @@ typedef class QE_Global_GUI_Table{
  QE_Global_GUI_Table();
   ~QE_Global_GUI_Table();
 
-    QE_Global_GUI_Table(float _X, float _Y, float _H, float _W, qesize_t * QE_Window_Size);
+    QE_Global_GUI_Table(float _X(HWND * Widget), float _Y(HWND * Widget), float _H(HWND * Widget), float _W(HWND * Widget), qesize_t * QE_Window_Size);
 
       HWND * QE_Camera_Widget;
       HWND * QE_XY_Widget;
