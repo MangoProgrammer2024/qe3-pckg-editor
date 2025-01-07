@@ -7,6 +7,8 @@
   QE GLOBAL VARIABLES
 
     @syntax-and-codestack
+
+      1/7/25
 =======================
 */
 void * q_eSysprintf(const char * _format, const char * text, ...);
