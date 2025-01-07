@@ -6,7 +6,7 @@
 =======================
   QE GLOBAL VARIABLES
 
-    @syntax-and-codestack
+  @syntax-and-codestack
 
       1/7/25
 =======================
