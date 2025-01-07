@@ -35,4 +35,9 @@ typedef class QE_Global_GUI_Table{
 
 };
 
+QE_Global_GUI_Table ** malloc__table__size(){
+  QE_Global_GUI_Table * QE = (QE_Global_GUI_Table*)qemalloc(sizeof(QE_Global_GUI_Table));
+  return QE;
+};
+
 #endif
