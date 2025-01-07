@@ -2,7 +2,14 @@
 #define QESYS_H
 
 #include <string>
+/*
+=======================
+  QE GLOBAL VARIABLES
 
+    @syntax-and-codestacks
+  
+=======================
+*/
 void * q_eSysprintf(const char * _format, const char * text, ...);
 int * qSize_t( unsigned long * _size);
 typedef std::string qestring;
