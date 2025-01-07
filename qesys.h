@@ -40,4 +40,8 @@ QE_Global_GUI_Table ** malloc__table__size(){
   return QE;
 };
 
+virtual void qfree( void ) = 0;
+virtual void * winfree( void WINAPI * free_misc ) = 0;
+virtual void QEFree(const char * qclassname) = 0;;
+
 #endif
