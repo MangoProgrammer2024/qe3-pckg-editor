@@ -44,4 +44,37 @@ virtual void qfree( void ) = 0;
 virtual void * winfree( void WINAPI * free_misc ) = 0;
 virtual void QEFree(const char * qclassname) = 0;;
 
+void QEIncRef();
+void QEDecRef();
+
+int QE_SignalId;
+BOOLEAN QE_IdSignaled_Changed;
+
+typedef int qint;
+typedef double qdecimal;
+typedef char qchar;
+typedef float qfloat;
+typedef bool qboolean;
+typedef bool q_eGlobal;//true
+typedef bool q_ePrivate;//false
+
+class QVar{
+ public:
+QVar();
+virtual ~QVar();
+ /*
+ * QVar Name
+ */
+ const qchar * const qvar_name(QVar * qvar);
+
+ /*
+ *
+ */
+
+  q_eGlobal * name_active = true;
+
+ 
+
+};
+
 #endif
