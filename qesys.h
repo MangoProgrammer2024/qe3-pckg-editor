@@ -1,4 +1,4 @@
-#ifndef QESYS_h
+#ifndef QESYS_H
 #define QESYS_H
 
 #include <string>
